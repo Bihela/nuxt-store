@@ -6,7 +6,7 @@
         <p class="btn my-4">View Details</p>
       </NuxtLink>
     </div>
-</template>
+  </template>
   
   <script setup>
     const { product } = defineProps(['product'])
