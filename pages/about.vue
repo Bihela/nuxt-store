@@ -6,7 +6,13 @@
 </template>
 
   
-<script>
+<script setup>
+    useHead({
+      title: 'About us',
+      meta: [
+        { name: 'description', content: 'About' }
+      ]
+    })
 
 </script>
   
