@@ -11,6 +11,13 @@
   <script setup>
     //  fetch the products
     const { data: products } = await useFetch('https://fakestoreapi.com/products')
+    
+    useHead({
+      title: 'Item',
+      meta: [
+        { name: 'description', content: 'Product Items' }
+      ]
+    })
   
     definePageMeta({
       layout: "products",
