@@ -1,48 +1,24 @@
 <template>
-    <div class>
-      <h2>Home</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis omnis consequatur quod necessitatibus autem repellat aperiam quia atque fugit praesentium earum rerum minus, porro asperiores explicabo inventore animi ducimus. Itaque voluptatum facilis nobis, praesentium, quasi pariatur veniam veritatis quo eligendi, ratione libero impedit. Distinctio, delectus sapiente adipisci assumenda obcaecati aliquid exercitationem sit ad autem! Veritatis nihil accusamus recusandae esse?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis omnis consequatur quod necessitatibus autem repellat aperiam quia atque fugit praesentium earum rerum minus, porro asperiores explicabo inventore animi ducimus. Itaque voluptatum facilis nobis, praesentium, quasi pariatur veniam veritatis quo eligendi, ratione libero impedit. Distinctio, delectus sapiente adipisci assumenda obcaecati aliquid exercitationem sit ad autem! Veritatis nihil accusamus recusandae esse?</p>
+    <div>
+
+        <h1>Home</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et culpa non ipsa voluptatum necessitatibus eos consectetur modi praesentium repellendus ratione voluptate, nesciunt tempora. Molestiae quasi ab illo hic sunt eius.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit sunt, facere, voluptatem doloremque odio iste laboriosam quis cum recusandae similique nam voluptas perspiciatis quaerat sint reprehenderit corporis provident consectetur!</p>
     </div>
 </template>
 
+<script setup>
 
-  
-  <style scoped>
-    h2 {
-      margin-bottom: 20px;
-      font-size: 36px;
-    }
-    p {
-      margin: 20px 0;
-    }
-    
-  div {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+</script>
 
-  h2 {
+<style scoped>
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    color: #333;
-  }
+}
 
-  p {
-    margin-bottom: 20px;
-    line-height: 1.6;
-  }
+p {
+    margin: 20px 0;
+}
 
-
-  p:hover {
-    background-color: #f0f0f0;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
-
-
-  </style>
+</style>

@@ -1,7 +1,7 @@
 <template>
     <div>
       <div class="grid grid-cols-4 gap-5">
-        <div v-for="p in products">
+        <div v-for="(p, index) in products" :key="index">
           <ProductCard :product="p" />
         </div>
       </div>
@@ -11,15 +11,15 @@
   <script setup>
     //  fetch the products
     const { data: products } = await useFetch('https://fakestoreapi.com/products')
-    
-    useHead({
-      title: 'Item',
-      meta: [
-        { name: 'description', content: 'Product Items' }
-      ]
-    })
   
     definePageMeta({
       layout: "products",
     })
+
+    useHead({
+    title: 'Nuxt3APP | Merch',
+    meta: [
+      { name: 'description', content: 'Nuxt 3 Merch'}
+    ]
+  })
   </script>
